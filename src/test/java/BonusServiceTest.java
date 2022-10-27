@@ -37,6 +37,7 @@ public class BonusServiceTest {
         assertEquals(expected, actual);
     }
 
+    @Test
     void shouldCalculateForUnregisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
